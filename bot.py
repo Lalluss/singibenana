@@ -1,9 +1,9 @@
 from pyrogram import Client
 import os
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", "6"))
-API_HASH = os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6129647312:AAG9o2G4-4rctiIbiTvDgWKIKApKIXWwnlc")
+API_ID = int(os.environ.get("API_ID", "7111812"))
+API_HASH = os.environ.get("API_HASH", "064880c569c803881b46d65969452ddf")
 
 if __name__ == "__main__" :
     plugins = dict(
